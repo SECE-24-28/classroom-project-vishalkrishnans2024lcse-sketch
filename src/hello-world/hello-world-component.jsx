@@ -9,6 +9,7 @@ const HelloWorldComponent = () => {
         <div className="square__child"></div>
         <div className="square__child"></div>
         <div className="square__child"></div>
+        <div className="square__rectangle"></div>
       </div>
     </HelloWorldStyle>
   );

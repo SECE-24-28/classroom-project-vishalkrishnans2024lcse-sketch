@@ -1,9 +1,13 @@
 import "./App.css";
+import FlexBoxComponent from "./flex-box/flex-box-component";
 import HelloWorldComponent from "./hello-world/hello-world-component";
 
 function App() {
   return (
-    <HelloWorldComponent/>
+    <div>
+      {/* <HelloWorldComponent /> */}
+      <FlexBoxComponent />
+    </div>
   );
 }
 
