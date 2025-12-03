@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script>
+    <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+    <style>
+        body { margin: 0; font-family: Arial, sans-serif; }
+    </style>
+</head>
+<body>
+    <div id="root"></div>
+    <script type="text/babel">
+        const LeadersTomorrowStyle = ({ children }) => (
+            <div style={{
+                display: 'flex',
+                justifyContent: 'center'
+            }}>
+                {children}
+            </div>
+        );
+
+        const LeadersTomorrowComponent = () => (
+            <LeadersTomorrowStyle>
+                <div style={{
+                    backgroundColor: 'rgb(252, 41, 71)',
+                    borderRadius: '200px',
+                    width: '1400px',
+                    padding: '2rem'
+                }}>
+                    <h1 style={{
+                        color: 'white',
+                        fontSize: '32px',
+                        fontWeight: '600',
+                        textAlign: 'center',
+                        margin: 0
+                    }}>
+                        Learners Today, Leaders Tomorrow
+                    </h1>
+                    <p style={{
+                        color: 'white',
+                        fontWeight: '500',
+                        fontSize: '20px',
+                        textAlign: 'center',
+                        margin: '1rem 0 0 0'
+                    }}>
+                        With our continuous research and development, we provide you with an excellent Aptitude training.
+                    </p>
+                </div>
+            </LeadersTomorrowStyle>
+        );
+
+        ReactDOM.render(<LeadersTomorrowComponent />, document.getElementById('root'));
+    </script>
+</body>
+</html>
