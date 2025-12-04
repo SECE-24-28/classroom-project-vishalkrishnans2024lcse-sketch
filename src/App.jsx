@@ -1,9 +1,9 @@
 import "./App.css";
-import AboutSection from "./symbol/symbol.jsx";
+import TrustedbyComponent from "./Trustedby/trustedby-component.jsx";
 
 function App() {
   return (
-    <AboutSection/>
+    <TrustedbyComponent/>
   );
 }
 
